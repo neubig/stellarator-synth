@@ -1,0 +1,5 @@
+2025-07-02 12:39:28,059 - __main__ - INFO - Generating 5 example stellarator configurations
+2025-07-02 12:40:01,681 - __main__ - INFO - Generating 5 example stellarator configurations
+2025-07-02 12:40:01,690 - __main__ - INFO - Example dataset saved to data/example
+2025-07-02 12:40:01,690 - __main__ - INFO - Input features: data/example/inputs.csv
+2025-07-02 12:40:01,690 - __main__ - INFO - Output features: data/example/outputs.csv
