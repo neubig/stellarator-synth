@@ -1,0 +1,5 @@
+2025-07-02 12:40:06,938 - __main__ - INFO - Converting 5 samples to text format
+2025-07-02 12:40:06,949 - __main__ - INFO - Text dataset saved to data/example/text
+2025-07-02 12:40:06,949 - __main__ - INFO - Combined text file: data/example/text/all_samples.txt
+2025-07-02 12:40:06,949 - __main__ - INFO - Prompt file: data/example/text/prompts.txt
+2025-07-02 12:40:06,949 - __main__ - INFO - Completion file: data/example/text/completions.txt

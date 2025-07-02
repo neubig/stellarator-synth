@@ -1,0 +1,45 @@
+{
+  "total_samples": 2,
+  "train_samples": 1,
+  "val_samples": 1,
+  "formats": [
+    "structured",
+    "natural",
+    "qa_pairs"
+  ],
+  "precision": 3,
+  "use_scientific": false,
+  "add_special_tokens": true,
+  "feature_columns": [
+    "aspect_ratio",
+    "elongation",
+    "rotational_transform",
+    "n_field_periods",
+    "triangularity",
+    "aspect_ratio_computed",
+    "max_elongation",
+    "edge_rotational_transform",
+    "axis_rotational_transform",
+    "vacuum_well",
+    "average_triangularity",
+    "qi_residual"
+  ],
+  "output_files": {
+    "structured": {
+      "train": "demo_text_data/train_structured.txt",
+      "val": "demo_text_data/val_structured.txt"
+    },
+    "natural": {
+      "train": "demo_text_data/train_natural.txt",
+      "val": "demo_text_data/val_natural.txt"
+    },
+    "qa_pairs": {
+      "train": "demo_text_data/train_qa_pairs.txt",
+      "val": "demo_text_data/val_qa_pairs.txt"
+    },
+    "combined": {
+      "train": "demo_text_data/train_combined.txt",
+      "val": "demo_text_data/val_combined.txt"
+    }
+  }
+}

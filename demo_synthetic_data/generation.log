@@ -1,0 +1,101 @@
+2025-07-02 12:43:51,283 - INFO - Starting synthetic data generation...
+2025-07-02 12:43:51,284 - INFO - Generating systematic parameter grid...
+2025-07-02 12:43:51,285 - INFO - Generated 1000 systematic parameter sets
+2025-07-02 12:43:51,285 - INFO - Generating LHS parameter samples...
+2025-07-02 12:43:51,301 - INFO - Generated 2000 LHS parameter sets
+2025-07-02 12:43:51,302 - INFO - Generating adaptive parameter samples...
+2025-07-02 12:43:51,319 - INFO - Generated 1000 adaptive parameter sets
+2025-07-02 12:43:51,319 - INFO - Total parameter sets to evaluate: 4000
+2025-07-02 12:43:51,319 - INFO - Processing batch 1/80 (50 simulations)
+2025-07-02 12:43:56,326 - INFO - Batch 1 success rate: 96.0%
+2025-07-02 12:43:56,327 - INFO - Overall success rate: 96.0%
+2025-07-02 12:43:56,327 - INFO - Processing batch 2/80 (50 simulations)
+2025-07-02 12:44:01,334 - INFO - Batch 2 success rate: 96.0%
+2025-07-02 12:44:01,334 - INFO - Overall success rate: 96.0%
+2025-07-02 12:44:01,334 - INFO - Processing batch 3/80 (50 simulations)
+2025-07-02 12:44:06,342 - INFO - Batch 3 success rate: 96.0%
+2025-07-02 12:44:06,342 - INFO - Overall success rate: 96.0%
+2025-07-02 12:44:06,343 - INFO - Processing batch 4/80 (50 simulations)
+2025-07-02 12:44:11,350 - INFO - Batch 4 success rate: 96.0%
+2025-07-02 12:44:11,350 - INFO - Overall success rate: 96.0%
+2025-07-02 12:44:11,351 - INFO - Processing batch 5/80 (50 simulations)
+2025-07-02 12:44:16,359 - INFO - Batch 5 success rate: 92.0%
+2025-07-02 12:44:16,359 - INFO - Overall success rate: 95.2%
+2025-07-02 12:44:16,360 - INFO - Processing batch 6/80 (50 simulations)
+2025-07-02 12:44:21,367 - INFO - Batch 6 success rate: 94.0%
+2025-07-02 12:44:21,367 - INFO - Overall success rate: 95.0%
+2025-07-02 12:44:21,368 - INFO - Processing batch 7/80 (50 simulations)
+2025-07-02 12:44:26,375 - INFO - Batch 7 success rate: 98.0%
+2025-07-02 12:44:26,376 - INFO - Overall success rate: 95.4%
+2025-07-02 12:44:26,376 - INFO - Processing batch 8/80 (50 simulations)
+2025-07-02 12:44:31,384 - INFO - Batch 8 success rate: 90.0%
+2025-07-02 12:44:31,384 - INFO - Overall success rate: 94.8%
+2025-07-02 12:44:31,385 - INFO - Processing batch 9/80 (50 simulations)
+2025-07-02 12:44:36,392 - INFO - Batch 9 success rate: 98.0%
+2025-07-02 12:44:36,392 - INFO - Overall success rate: 95.1%
+2025-07-02 12:44:36,393 - INFO - Processing batch 10/80 (50 simulations)
+2025-07-02 12:44:41,400 - INFO - Batch 10 success rate: 98.0%
+2025-07-02 12:44:41,401 - INFO - Overall success rate: 95.4%
+2025-07-02 12:44:41,402 - INFO - Processing batch 11/80 (50 simulations)
+2025-07-02 12:44:46,409 - INFO - Batch 11 success rate: 96.0%
+2025-07-02 12:44:46,409 - INFO - Overall success rate: 95.5%
+2025-07-02 12:44:46,410 - INFO - Processing batch 12/80 (50 simulations)
+2025-07-02 12:44:51,417 - INFO - Batch 12 success rate: 90.0%
+2025-07-02 12:44:51,417 - INFO - Overall success rate: 95.0%
+2025-07-02 12:44:51,418 - INFO - Processing batch 13/80 (50 simulations)
+2025-07-02 12:44:56,425 - INFO - Batch 13 success rate: 94.0%
+2025-07-02 12:44:56,425 - INFO - Overall success rate: 94.9%
+2025-07-02 12:44:56,426 - INFO - Processing batch 14/80 (50 simulations)
+2025-07-02 12:45:01,434 - INFO - Batch 14 success rate: 100.0%
+2025-07-02 12:45:01,434 - INFO - Overall success rate: 95.3%
+2025-07-02 12:45:01,435 - INFO - Processing batch 15/80 (50 simulations)
+2025-07-02 12:45:06,442 - INFO - Batch 15 success rate: 92.0%
+2025-07-02 12:45:06,443 - INFO - Overall success rate: 95.1%
+2025-07-02 12:45:06,444 - INFO - Processing batch 16/80 (50 simulations)
+2025-07-02 12:45:11,451 - INFO - Batch 16 success rate: 100.0%
+2025-07-02 12:45:11,451 - INFO - Overall success rate: 95.4%
+2025-07-02 12:45:11,452 - INFO - Processing batch 17/80 (50 simulations)
+2025-07-02 12:45:16,459 - INFO - Batch 17 success rate: 92.0%
+2025-07-02 12:45:16,459 - INFO - Overall success rate: 95.2%
+2025-07-02 12:45:16,460 - INFO - Processing batch 18/80 (50 simulations)
+2025-07-02 12:45:21,468 - INFO - Batch 18 success rate: 94.0%
+2025-07-02 12:45:21,468 - INFO - Overall success rate: 95.1%
+2025-07-02 12:45:21,469 - INFO - Processing batch 19/80 (50 simulations)
+2025-07-02 12:45:26,476 - INFO - Batch 19 success rate: 92.0%
+2025-07-02 12:45:26,476 - INFO - Overall success rate: 94.9%
+2025-07-02 12:45:26,477 - INFO - Processing batch 20/80 (50 simulations)
+2025-07-02 12:45:31,526 - INFO - Saved 947 records to demo_synthetic_data/successful_runs_batch_20.csv and demo_synthetic_data/successful_runs_batch_20.json
+2025-07-02 12:45:31,529 - INFO - Saved 53 records to demo_synthetic_data/failed_runs_batch_20.csv and demo_synthetic_data/failed_runs_batch_20.json
+2025-07-02 12:45:31,529 - INFO - Batch 20 success rate: 90.0%
+2025-07-02 12:45:31,529 - INFO - Overall success rate: 94.7%
+2025-07-02 12:45:31,529 - INFO - Processing batch 21/80 (50 simulations)
+2025-07-02 12:45:36,536 - INFO - Batch 21 success rate: 94.0%
+2025-07-02 12:45:36,536 - INFO - Overall success rate: 94.7%
+2025-07-02 12:45:36,537 - INFO - Processing batch 22/80 (50 simulations)
+2025-07-02 12:45:41,545 - INFO - Batch 22 success rate: 96.0%
+2025-07-02 12:45:41,545 - INFO - Overall success rate: 94.7%
+2025-07-02 12:45:41,546 - INFO - Processing batch 23/80 (50 simulations)
+2025-07-02 12:45:46,553 - INFO - Batch 23 success rate: 96.0%
+2025-07-02 12:45:46,553 - INFO - Overall success rate: 94.8%
+2025-07-02 12:45:46,554 - INFO - Processing batch 24/80 (50 simulations)
+2025-07-02 12:45:51,562 - INFO - Batch 24 success rate: 92.0%
+2025-07-02 12:45:51,562 - INFO - Overall success rate: 94.7%
+2025-07-02 12:45:51,563 - INFO - Processing batch 25/80 (50 simulations)
+2025-07-02 12:45:56,570 - INFO - Batch 25 success rate: 92.0%
+2025-07-02 12:45:56,570 - INFO - Overall success rate: 94.6%
+2025-07-02 12:45:56,571 - INFO - Processing batch 26/80 (50 simulations)
+2025-07-02 12:46:01,578 - INFO - Batch 26 success rate: 96.0%
+2025-07-02 12:46:01,579 - INFO - Overall success rate: 94.6%
+2025-07-02 12:46:01,580 - INFO - Processing batch 27/80 (50 simulations)
+2025-07-02 12:46:06,587 - INFO - Batch 27 success rate: 96.0%
+2025-07-02 12:46:06,587 - INFO - Overall success rate: 94.7%
+2025-07-02 12:46:06,588 - INFO - Processing batch 28/80 (50 simulations)
+2025-07-02 12:46:11,595 - INFO - Batch 28 success rate: 94.0%
+2025-07-02 12:46:11,596 - INFO - Overall success rate: 94.6%
+2025-07-02 12:46:11,596 - INFO - Processing batch 29/80 (50 simulations)
+2025-07-02 12:46:16,604 - INFO - Batch 29 success rate: 94.0%
+2025-07-02 12:46:16,604 - INFO - Overall success rate: 94.6%
+2025-07-02 12:46:16,605 - INFO - Processing batch 30/80 (50 simulations)
+2025-07-02 12:46:21,612 - INFO - Batch 30 success rate: 94.0%
+2025-07-02 12:46:21,612 - INFO - Overall success rate: 94.6%
+2025-07-02 12:46:21,613 - INFO - Processing batch 31/80 (50 simulations)
