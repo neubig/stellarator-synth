@@ -1,0 +1,16 @@
+<|startoftext|>STELLARATOR_CONFIGURATION:
+INPUT_PARAMETERS:
+  aspect_ratio: 6.000
+  elongation: 0.800
+  rotational_transform: 0.300
+  n_field_periods: 4.0
+  triangularity: -0.100
+OUTPUT_METRICS:
+  computed_aspect_ratio: 5.980
+  max_elongation: 0.820
+  edge_rotational_transform: 0.310
+  axis_rotational_transform: 0.290
+  vacuum_well: 0.220
+  average_triangularity: -0.090
+  qi_residual: 0.150
+END_CONFIGURATION<|endoftext|>

@@ -1,0 +1,16 @@
+<|startoftext|>Q: What is the aspect ratio of this stellarator design?
+A: 6.000
+Q: What is the elongation?
+A: 0.800
+Q: How many field periods does this configuration have?
+A: 4.0
+Q: What is the computed aspect ratio from the simulation?
+A: 5.980
+Q: What is the maximum elongation achieved?
+A: 0.820
+Q: What is the vacuum well depth?
+A: 0.220
+Q: What is the quasi-isodynamic residual?
+A: 0.150
+Q: Is this a good quasi-isodynamic configuration?
+A: Yes, this is a good quasi-isodynamic configuration.<|endoftext|>

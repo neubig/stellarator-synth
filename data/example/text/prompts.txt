@@ -1,0 +1,110 @@
+Given the following stellarator boundary description, predict the equilibrium properties and performance metrics:
+
+STELLARATOR BOUNDARY DESCRIPTION
+================================
+
+Field periods: 3
+Stellarator symmetric: True
+
+Fourier coefficients (RBC):
+  m=0, n=0: 1.0000
+  m=0, n=1: 0.050000
+  m=1, n=0: 0.1000
+  m=1, n=1: 0.020000
+  m=2, n=2: 0.010000
+
+Fourier coefficients (ZBS):
+  m=0, n=1: 0.050000
+  m=1, n=0: 0.1000
+  m=1, n=1: 0.030000
+  m=2, n=2: 0.010000
+
+
+Given the following stellarator boundary description, predict the equilibrium properties and performance metrics:
+
+STELLARATOR BOUNDARY DESCRIPTION
+================================
+
+Field periods: 4
+Stellarator symmetric: True
+
+Fourier coefficients (RBC):
+  m=0, n=0: 1.0000
+  m=0, n=1: 0.050000
+  m=1, n=0: 0.1000
+  m=1, n=1: 0.020000
+  m=2, n=2: 0.010000
+
+Fourier coefficients (ZBS):
+  m=0, n=1: 0.050000
+  m=1, n=0: 0.1000
+  m=1, n=1: 0.030000
+  m=2, n=2: 0.010000
+
+
+Given the following stellarator boundary description, predict the equilibrium properties and performance metrics:
+
+STELLARATOR BOUNDARY DESCRIPTION
+================================
+
+Field periods: 2
+Stellarator symmetric: True
+
+Fourier coefficients (RBC):
+  m=0, n=0: 1.0000
+  m=0, n=1: 0.050000
+  m=1, n=0: 0.1000
+  m=1, n=1: 0.020000
+  m=2, n=2: 0.010000
+
+Fourier coefficients (ZBS):
+  m=0, n=1: 0.050000
+  m=1, n=0: 0.1000
+  m=1, n=1: 0.030000
+  m=2, n=2: 0.010000
+
+
+Given the following stellarator boundary description, predict the equilibrium properties and performance metrics:
+
+STELLARATOR BOUNDARY DESCRIPTION
+================================
+
+Field periods: 4
+Stellarator symmetric: True
+
+Fourier coefficients (RBC):
+  m=0, n=0: 1.0000
+  m=0, n=1: 0.050000
+  m=1, n=0: 0.1000
+  m=1, n=1: 0.020000
+  m=2, n=2: 0.010000
+
+Fourier coefficients (ZBS):
+  m=0, n=1: 0.050000
+  m=1, n=0: 0.1000
+  m=1, n=1: 0.030000
+  m=2, n=2: 0.010000
+
+
+Given the following stellarator boundary description, predict the equilibrium properties and performance metrics:
+
+STELLARATOR BOUNDARY DESCRIPTION
+================================
+
+Field periods: 3
+Stellarator symmetric: True
+
+Fourier coefficients (RBC):
+  m=0, n=0: 1.0000
+  m=0, n=1: 0.050000
+  m=1, n=0: 0.1000
+  m=1, n=1: 0.020000
+  m=2, n=2: 0.010000
+
+Fourier coefficients (ZBS):
+  m=0, n=1: 0.050000
+  m=1, n=0: 0.1000
+  m=1, n=1: 0.030000
+  m=2, n=2: 0.010000
+
+

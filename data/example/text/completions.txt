@@ -1,0 +1,245 @@
+STELLARATOR EQUILIBRIUM PROPERTIES
+==================================
+
+Aspect ratio: 4.8532
+Plasma volume: 11.0221
+Reference magnetic field strength: 0.9195
+Maximum major radius: 1.1008
+Minimum major radius: 0.9027
+Maximum height: 0.2036
+Number of field periods: 3
+Number of poloidal modes: 4
+Number of toroidal modes: 4
+
+Rotational transform profile:
+  s=0.00000000: iota=0.2041
+  s=0.1111: iota=0.2067
+  s=0.2222: iota=0.2231
+  s=0.3333: iota=0.2388
+  s=0.4444: iota=0.2596
+  s=0.5556: iota=0.2637
+  s=0.6667: iota=0.2861
+  s=0.7778: iota=0.3269
+  s=0.8889: iota=0.3326
+  s=1.0000: iota=0.3524
+
+
+STELLARATOR PERFORMANCE METRICS
+===============================
+
+n_field_periods: 3.0000
+is_stellarator_symmetric: 1.0000
+
+Performance metrics:
+aspect_ratio: 4.8532
+volume: 11.0221
+b0: 0.9195
+rmax_surf: 1.1008
+rmin_surf: 0.9027
+zmax_surf: 0.2036
+vacuum_well: 0.009256
+magnetic_well: 0.023860
+max_elongation: 1.9789
+min_curvature_radius: 0.1098
+max_curvature: 6.5993
+coil_complexity: 10.6301
+bootstrap_current: 0.038735
+neoclassical_transport: 0.1456
+effective_ripple: 0.008635
+
+STELLARATOR EQUILIBRIUM PROPERTIES
+==================================
+
+Aspect ratio: 4.7147
+Plasma volume: 8.1446
+Reference magnetic field strength: 1.1226
+Maximum major radius: 1.0836
+Minimum major radius: 0.9019
+Maximum height: 0.1920
+Number of field periods: 4
+Number of poloidal modes: 4
+Number of toroidal modes: 4
+
+Rotational transform profile:
+  s=0.00000000: iota=0.1974
+  s=0.1111: iota=0.2115
+  s=0.2222: iota=0.2373
+  s=0.3333: iota=0.2288
+  s=0.4444: iota=0.2576
+  s=0.5556: iota=0.2614
+  s=0.6667: iota=0.2980
+  s=0.7778: iota=0.3014
+  s=0.8889: iota=0.3312
+  s=1.0000: iota=0.3418
+
+
+STELLARATOR PERFORMANCE METRICS
+===============================
+
+n_field_periods: 4.0000
+is_stellarator_symmetric: 1.0000
+
+Performance metrics:
+aspect_ratio: 4.7147
+volume: 8.1446
+b0: 1.1226
+rmax_surf: 1.0836
+rmin_surf: 0.9019
+zmax_surf: 0.1920
+vacuum_well: 0.012515
+magnetic_well: 0.013798
+max_elongation: 1.9863
+min_curvature_radius: 0.1091
+max_curvature: 4.9257
+coil_complexity: 6.2956
+bootstrap_current: 0.057495
+neoclassical_transport: 0.1888
+effective_ripple: 0.008968
+
+STELLARATOR EQUILIBRIUM PROPERTIES
+==================================
+
+Aspect ratio: 4.8718
+Plasma volume: 10.4682
+Reference magnetic field strength: 0.9367
+Maximum major radius: 1.0943
+Minimum major radius: 0.9011
+Maximum height: 0.1938
+Number of field periods: 2
+Number of poloidal modes: 4
+Number of toroidal modes: 4
+
+Rotational transform profile:
+  s=0.00000000: iota=0.2119
+  s=0.1111: iota=0.2122
+  s=0.2222: iota=0.2216
+  s=0.3333: iota=0.2501
+  s=0.4444: iota=0.2413
+  s=0.5556: iota=0.2911
+  s=0.6667: iota=0.3108
+  s=0.7778: iota=0.3274
+  s=0.8889: iota=0.3365
+  s=1.0000: iota=0.3463
+
+
+STELLARATOR PERFORMANCE METRICS
+===============================
+
+n_field_periods: 2.0000
+is_stellarator_symmetric: 1.0000
+
+Performance metrics:
+aspect_ratio: 4.8718
+volume: 10.4682
+b0: 0.9367
+rmax_surf: 1.0943
+rmin_surf: 0.9011
+zmax_surf: 0.1938
+vacuum_well: 0.009891
+magnetic_well: 0.017684
+max_elongation: 1.9370
+min_curvature_radius: 0.096620
+max_curvature: 5.0294
+coil_complexity: 7.9237
+bootstrap_current: 0.037005
+neoclassical_transport: 0.2514
+effective_ripple: 0.009369
+
+STELLARATOR EQUILIBRIUM PROPERTIES
+==================================
+
+Aspect ratio: 5.2226
+Plasma volume: 9.5637
+Reference magnetic field strength: 1.0441
+Maximum major radius: 1.0766
+Minimum major radius: 0.9280
+Maximum height: 0.2121
+Number of field periods: 4
+Number of poloidal modes: 4
+Number of toroidal modes: 4
+
+Rotational transform profile:
+  s=0.00000000: iota=0.2029
+  s=0.1111: iota=0.2252
+  s=0.2222: iota=0.2240
+  s=0.3333: iota=0.2439
+  s=0.4444: iota=0.2471
+  s=0.5556: iota=0.2615
+  s=0.6667: iota=0.2749
+  s=0.7778: iota=0.3107
+  s=0.8889: iota=0.3184
+  s=1.0000: iota=0.3577
+
+
+STELLARATOR PERFORMANCE METRICS
+===============================
+
+n_field_periods: 4.0000
+is_stellarator_symmetric: 1.0000
+
+Performance metrics:
+aspect_ratio: 5.2226
+volume: 9.5637
+b0: 1.0441
+rmax_surf: 1.0766
+rmin_surf: 0.9280
+zmax_surf: 0.2121
+vacuum_well: 0.008589
+magnetic_well: 0.021266
+max_elongation: 2.0795
+min_curvature_radius: 0.1000
+max_curvature: 6.0721
+coil_complexity: 9.9408
+bootstrap_current: 0.050909
+neoclassical_transport: 0.2032
+effective_ripple: 0.009000
+
+STELLARATOR EQUILIBRIUM PROPERTIES
+==================================
+
+Aspect ratio: 4.6924
+Plasma volume: 11.1421
+Reference magnetic field strength: 0.9851
+Maximum major radius: 1.0696
+Minimum major radius: 0.8711
+Maximum height: 0.2112
+Number of field periods: 3
+Number of poloidal modes: 4
+Number of toroidal modes: 4
+
+Rotational transform profile:
+  s=0.00000000: iota=0.1955
+  s=0.1111: iota=0.2119
+  s=0.2222: iota=0.1974
+  s=0.3333: iota=0.2469
+  s=0.4444: iota=0.2541
+  s=0.5556: iota=0.2710
+  s=0.6667: iota=0.3009
+  s=0.7778: iota=0.3069
+  s=0.8889: iota=0.3160
+  s=1.0000: iota=0.3665
+
+
+STELLARATOR PERFORMANCE METRICS
+===============================
+
+n_field_periods: 3.0000
+is_stellarator_symmetric: 1.0000
+
+Performance metrics:
+aspect_ratio: 4.6924
+volume: 11.1421
+b0: 0.9851
+rmax_surf: 1.0696
+rmin_surf: 0.8711
+zmax_surf: 0.2112
+vacuum_well: 0.012072
+magnetic_well: 0.019365
+max_elongation: 2.2553
+min_curvature_radius: 0.1196
+max_curvature: 4.7300
+coil_complexity: 6.0143
+bootstrap_current: 0.056276
+neoclassical_transport: 0.1951
+effective_ripple: 0.010677
+
