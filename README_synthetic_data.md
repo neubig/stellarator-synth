@@ -15,11 +15,14 @@ cd stellarator-synth
 # Install dependencies
 pip install -r requirements.txt
 
-# Generate synthetic data (demo mode)
-python synthetic_data_generator.py
+# Option 1: Run complete pipeline (data generation → text conversion → language model)
+python complete_pipeline_demo.py
 
-# Train ML surrogate model
-python ml_surrogate_model.py
+# Option 2: Individual components
+python synthetic_data_generator.py    # Generate synthetic data
+python text_data_converter.py         # Convert to text format
+python language_model_trainer.py      # Train language model
+python ml_surrogate_model.py          # Train traditional ML models
 ```
 
 ## Overview
@@ -44,28 +47,51 @@ The stellarator simulators mentioned in the Hugging Face blog post are **open so
 
 ## Files in This Repository
 
-### 1. `synthetic_data_generation_plan.md`
-Comprehensive plan for generating synthetic training data, including:
-- Systematic parameter space exploration
-- Latin Hypercube Sampling (LHS)
-- Adaptive sampling techniques
-- Multi-fidelity data generation
-- Resource requirements and timelines
+### Core Components
 
-### 2. `synthetic_data_generator.py`
+#### 1. `synthetic_data_generator.py`
 Python script that implements the data generation pipeline:
 - Systematic grid sampling across parameter space
-- LHS for space-filling designs
+- Latin Hypercube Sampling (LHS) for space-filling designs
 - Adaptive sampling for underrepresented regions
 - Parallel processing for efficiency
 - Robust error handling and data validation
 
-### 3. `ml_surrogate_model.py`
-Machine learning framework for training surrogate models:
+#### 2. `text_data_converter.py` 🆕
+Converts stellarator simulation data into text format for language model training:
+- Multiple text formats: structured, natural language, Q&A pairs, JSON-like, code-like
+- Configurable precision and scientific notation
+- Special tokens for language model training
+- Training/validation dataset creation
+
+#### 3. `language_model_trainer.py` 🆕
+Language model framework for physics simulation:
+- Fine-tuning pre-trained models (GPT-2, etc.) on stellarator data
+- Text-based physics prediction
+- Multiple input/output formats
+- Model evaluation and benchmarking
+
+#### 4. `ml_surrogate_model.py`
+Traditional machine learning framework for surrogate models:
 - Multiple ML algorithms (Random Forest, XGBoost, Neural Networks)
 - Multi-output regression for predicting multiple physics quantities
 - Model comparison and benchmarking
 - Speed optimization for real-time inference
+
+#### 5. `complete_pipeline_demo.py` 🆕
+End-to-end demonstration of the complete pipeline:
+- Data generation → Text conversion → Language model training
+- Integrated workflow with error handling
+- Performance benchmarking and evaluation
+
+### Documentation
+
+#### 6. `synthetic_data_generation_plan.md`
+Comprehensive plan for generating synthetic training data:
+- Systematic parameter space exploration strategies
+- Multi-fidelity data generation approaches
+- Resource requirements and timelines
+- Physics-informed sampling techniques
 
 ## Quick Start
 
@@ -111,6 +137,54 @@ python ml_surrogate_model.py
 # 5. Generate prediction plots
 ```
 
+## Approach: Language Models for Physics Simulation 🆕
+
+This repository introduces a novel approach to physics simulation using **language models**. Instead of traditional numerical ML models, we convert stellarator simulation data into structured text and train language models to understand and predict physics.
+
+### Why Language Models for Physics?
+
+1. **Interpretability**: Text-based predictions are human-readable and explainable
+2. **Flexibility**: Can handle multiple input/output formats naturally
+3. **Few-shot Learning**: Can adapt to new configurations with minimal examples
+4. **Reasoning**: Can potentially learn physics relationships and constraints
+5. **Multimodal**: Can combine numerical data with textual descriptions
+
+### Text Format Examples
+
+#### Structured Format
+```
+STELLARATOR_CONFIGURATION:
+INPUT_PARAMETERS:
+  aspect_ratio: 4.0000
+  elongation: 1.2000
+  rotational_transform: 0.5000
+  n_field_periods: 3
+  triangularity: 0.1000
+OUTPUT_METRICS:
+  computed_aspect_ratio: 4.0500
+  max_elongation: 1.2500
+  vacuum_well: 0.1500
+END_CONFIGURATION
+```
+
+#### Natural Language Format
+```
+A stellarator configuration with 3 field periods was designed with an aspect ratio of 4.0000, 
+elongation of 1.2000, rotational transform of 0.5000, and triangularity of 0.1000. 
+The simulation results showed a computed aspect ratio of 4.0500, maximum elongation of 1.2500, 
+and vacuum well depth of 0.1500. This configuration exhibits excellent quasi-isodynamic properties.
+```
+
+#### Q&A Format
+```
+Q: What is the aspect ratio of this stellarator design?
+A: 4.0000
+Q: What is the computed aspect ratio from the simulation?
+A: 4.0500
+Q: Is this a good quasi-isodynamic configuration?
+A: Yes, this is an excellent quasi-isodynamic configuration.
+```
+
 ## Data Generation Strategy
 
 ### Phase 1: Systematic Exploration
@@ -128,6 +202,12 @@ python ml_surrogate_model.py
 - **Optimization Trajectories**: Include optimization paths
 - **Failure Cases**: Document convergence failures
 - **Target**: 15,000-25,000 specialized configurations
+
+### Phase 4: Text Format Generation 🆕
+- **Multi-format Conversion**: Generate multiple text representations
+- **Special Tokens**: Add language model training tokens
+- **Quality Control**: Validate text format consistency
+- **Target**: Complete text datasets for language model training
 
 ## Expected Performance
 
